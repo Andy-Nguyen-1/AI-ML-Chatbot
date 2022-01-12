@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Software Developer -->
+    <category>
+      <pattern>Software</pattern>
+      <template>Software Developers conceive of, design, and build computer programs. Some develop new applications for mobile or desktop use, while others build underlying operating systems.
+      <button>
+          <text>Learn more!</text>
+          <url>https://www.computerscience.org/careers/software-developer/#:~:text=Software%20developers%20conceive%20of%2C%20design,new%20software%2C%20and%20make%20improvements.</url>
+      </button>
+      <button>
+          <text>See other careers</text>
+          <postback>Learn more</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+   
+	
+</aiml>

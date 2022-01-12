@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Data Scientist -->
+    <category>
+      <pattern>DATAS</pattern>
+      <template> Data Scientists are responsible for overseeing the collection, storage and interpretation of data for businesses.
+      <button>
+          <text>Learn more!</text>
+          <url>https://www.computerscience.org/careers/data-science/</url>
+      </button>
+      <button>
+          <text>See other careers</text>
+          <postback>Learn More</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+</aiml>

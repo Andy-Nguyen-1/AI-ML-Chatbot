@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- UI/UX Designer -->
+    <category>
+      <pattern>UI</pattern>
+      <template>UI/UX designers are responsible for creating an optimal experience for the user when they interact with a digital or physical product, such as a website or a coffee machine.
+      <button>
+          <text>Learn more!</text>
+          <url>https://www.springboard.com/library/ui-ux-design/job-description/</url>
+      </button>
+      <button>
+          <text>See other careers</text>
+          <postback>Learn more</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+	
+</aiml>

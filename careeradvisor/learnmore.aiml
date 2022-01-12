@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Initial Learn More option -->
+    <category>
+      <pattern>LEARN MORE</pattern>
+      <template> What would you like to learn more about?
+      <button>
+          <text>Database Administrator</text>
+          <postback>database</postback>
+      </button>
+      <button>
+          <text>Data Scientist</text>
+          <postback>Datas</postback>
+      </button>
+      <button>
+          <text>Software Development</text>
+          <postback>Software</postback>
+      </button>
+      <button>
+          <text>UI/UX Designer</text>
+          <postback>UI</postback> 
+      </button>
+      <button>
+          <text>Web Developer</text>
+          <postback>Web</postback>
+      </button>
+      </template>
+  </category>
+</aiml>

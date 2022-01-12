@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that. Please type "Help" to see commands</template>
+  </category>
+  <category>
+      <pattern>help</pattern>
+      <template> Help Menu, type "Hi" to begin</template>
+      
+
+  </category>
+  <category>
+      <pattern>Data1</pattern>
+      <template> Data Scientists are responsible for overseeing the collection, storage and interpretation of data for businesses. Their duties include sifting through data points to create organized categories, comparing data points to current company processes and writing reports outlining business predictions or proposals.
+      <button>
+          <text>Go back</text>
+          <postback>Learn More</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+  <category>
+      <pattern>DATA2</pattern>
+      <template> Data Scientists are responsible for overseeing the collection, storage and interpretation of data for businesses. Their duties include sifting through data points to create organized categories, comparing data points to current company processes and writing reports outlining business predictions or proposals.
+      <button>
+          <text>Go back</text>
+          <postback>Learn More</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+  <category>
+      <pattern>Software</pattern>
+      <template>Software Developers conceive of, design, and build computer programs. Some develop new applications for mobile or desktop use, while others build underlying operating systems. Either way, software developers identify user needs, build programs, test out new software, and make improvements. Working closely with computer programmers, software developers fill crucial roles in the computer systems, manufacturing, finance, and software publishing industries.
+      <button>
+          <text>Go back</text>
+          <postback>Learn more</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>UI</pattern>
+      <template>UI/UX designers are responsible for creating an optimal experience for the user when they interact with a digital or physical product, such as a website or a coffee machine. Some focus on service design, such as designing the overall experience of using public transportation or visiting a doctor.
+      <button>
+          <text>Go back</text>
+          <postback>Learn more</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+  <category>
+      <pattern>Web</pattern>
+      <template>Web developers work independently as freelancers or with company teams to create websites. Depending on the job, these professionals may focus on front-end development, which involves designing sites and producing content, or back-end development, which involves writing code to make website features work. Web developers may also become webmasters for a site, providing maintenance, updates, and troubleshooting when needed.
+      <button>
+          <text>Go Back</text>
+          <postback>Learn more</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+  <category>
+      <pattern>VideoGame</pattern>
+      <template>Video game design careers may appeal to candidates who excel at technology and possess the creative thinking skills to build engaging, entertaining, functional, and unique interactive experiences.
+      <button>
+          <text>Go Back</text>
+          <postback>Learn More</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>
+  <category>
+      <pattern>End</pattern>
+      <template>We're sad to see you go, good luck on your job search!</template>
+      
+  </category>
+
+   
+</aiml>

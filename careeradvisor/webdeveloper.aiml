@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Web Developer -->
+  <category>
+      <pattern>Web</pattern>
+      <template>Web developers work independently as freelancers or with company teams to create websites.  Web development includes designing sites and producing content, or back-end development, which involves writing code to make website features work.
+      <button>
+          <text>Learn more!</text>
+          <url>https://www.computerscience.org/careers/web-developer/</url>
+      </button>
+      <button>
+          <text>See other careers</text>
+          <postback>Learn more</postback>
+      </button>
+      <button>
+          <text>End Chat</text>
+          <postback>End</postback>
+      </button>
+      </template>
+  </category>    
+</aiml>

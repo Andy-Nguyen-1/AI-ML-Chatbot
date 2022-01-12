@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <!--To start bot, type "Hi"-->
+    <pattern>HI</pattern>
+    <template>Welcome to the Computer Science career advisor chatbot. I can help you learn more about a career or I can help you decide based on your strengths and preferences. What do you need help with?
+        <button>
+            <text>Learn more</text>
+            <postback>Learn more</postback>
+        </button>
+        <button>
+            <text>Help me choose</text>
+            <postback>helpme</postback>
+        </button>
+    </template>
+    </category>
+  <category>
+    <!-- Wildcard -->
+    <pattern>*</pattern>
+    <template>I do not recongnize that answer. Please type "Help" to see commands</template>
+  </category>
+  <category>
+    <!-- Help Menu -->
+      <pattern>HELP</pattern>
+      <template> Help Menu
+      <br></br><br></br>
+      To start the bot type "Hi".
+      <br></br><br></br>
+      For more help please click on the button to schedule an appointment.
+      <button>
+          <text>Schedule an appointment</text>
+          <url>https://calendly.com/angu131/15min</url>
+      </button>
+      </template>
+      </category>
+  <category>
+      <pattern>END</pattern>
+      <template>We're sad to see you leave!</template>
+      
+  </category>
+  <category>
+      <pattern>SCHEDULE</pattern>
+      <template>To sechdule an appointment with your advisor, please fill out the form below.
+      <button>
+          <text>Schedule an appointment</text>
+          <url>https://calendly.com/angu131/15min</url>
+      </button>
+          
+      </template>
+  </category>
+  
+</aiml>
